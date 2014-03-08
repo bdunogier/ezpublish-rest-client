@@ -4,14 +4,7 @@
     "homepage": "http://share.ez.no",
     "require": {
         "ezsystems/ezpublish-api": "self.version",
-        "ezsystems/ezpublish-rest-common": "self.version",
+        "ezsystems/ezpublish-rest-common": "dev-master",
         "symfony/dependency-injection": "2.3.*"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/bdunogier/ezpublish-rest-common"
-        }
-    ],
-    "minimum-stability": "dev"
+    }
 }
